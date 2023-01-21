@@ -33,9 +33,14 @@ function paint(text){
 function handleSubmit(event){
     event.preventDefault();
     const currentValue = toDoInput.value;
-    paint(currentValue);
-    output.style.display = "";
-    toDoInput.value = "";
+    
+    if (currentValue == "성현"){
+        output.value = "성혀이 보고싶어~~!";
+    } else{
+        paint(currentValue);
+        output.style.display = "";
+        toDoInput.value = "";
+    }
 }
 
 
