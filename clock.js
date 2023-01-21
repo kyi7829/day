@@ -1,4 +1,4 @@
-
+/* 
 function sayHello(name,jender,old){
     console.log('Hello!',name,"your jender is",
     jender, "you", old)
@@ -7,6 +7,7 @@ function sayHello(name,jender,old){
 sayHello("kimYeongIn","man",24)
 */
 
+/*
 function sayHello(name, age){
     
     console.log
@@ -19,6 +20,7 @@ function sayHello(name, age){
     return `Hello ${name} your ${age} years old`;
 }
 
+/*
 const greetKyi = sayHello("Kyi", 24)
 console.log(greetKyi)
 */
